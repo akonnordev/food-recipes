@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+ul{ 
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+}
+.list1{
+    background-image: url(./images/Meat.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.list2{
+    display: flex;
+    gap: 8px;
+    margin-right: 32px; 
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+Footer{
+    background-color: #1F2937;  
+}
+.footertext{
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
