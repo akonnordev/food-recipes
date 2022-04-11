@@ -103,25 +103,16 @@ padding: 8px;
     }
     div .sideimage img{
         max-width: 150px;
-        max-height: 150px;
+        max-height: 150px; 
     }
-    .section4{
-        color: white;
-        padding: 30px;
-        margin: 18px;
-        display: flex;
-        justify-content: center;
-        
-    }
-    .sectioncard{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 12px;
-        background-color: #021c24;
-        padding: 30px ;
-        width: 700px ;
-    }
+    div .sectioncard {
+        background-color: rgb(4, 115, 134);
+        width: 650px;
+    }  
+    div .sectioncard button{
+        background-color: rgb(4, 115, 134) ;
+    }  
+   
   }
 .boxwidth{
     max-width: 300px ;
