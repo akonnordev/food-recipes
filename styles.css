@@ -97,6 +97,23 @@ padding: 8px;
         max-width: 300px ;
         margin: 20px;
     }
+    h1{
+        font-size: 28px;
+        color: white;
+    }
+    div .sideimage img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .sectioncard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        background-color: #057a8f;
+        padding: 24px ;
+        width: 750px ;
+    }
   }
 .boxwidth{
     max-width: 300px ;
