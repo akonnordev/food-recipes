@@ -88,7 +88,7 @@ padding: 8px;
     align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .boxes{
         display: flex;
         flex-direction: column;
@@ -105,14 +105,22 @@ padding: 8px;
         max-width: 150px;
         max-height: 150px;
     }
-    .sectioncard{
+    .section4{
+        color: white;
+        padding: 30px;
+        margin: 18px;
         display: flex;
         justify-content: center;
+        
+    }
+    .sectioncard{
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 8px;
-        background-color: #057a8f;
-        padding: 24px ;
-        width: 750px ;
+        gap: 12px;
+        background-color: #021c24;
+        padding: 30px ;
+        width: 700px ;
     }
   }
 .boxwidth{
